@@ -1,0 +1,14 @@
+<h1>Todo List</h1>
+<ul>
+  @for (todo of todos; track todo.id) {
+  <li>
+    {{ todo.id }}
+  </li>
+  <li>
+    {{ todo.title }}
+  </li>
+  <li>
+    {{ todo.body }}
+  </li>
+}
+</ul>
